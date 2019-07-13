@@ -1,0 +1,81 @@
+/* Write some CSS below */
+body{
+	font-family: helvetica;
+}
+h1{
+	font-family: helvetica;
+	color: #2A7F62;
+	font-size: 72px ;
+	letter-spacing: -2px;
+	text-align: center; 
+	line-height: 200px; 
+	
+}
+h2{
+	font-family: helvetica;
+	color: white;
+	font-size: 50px;
+	text-align: center; 
+	margin: -100px; 
+
+}
+h4 {
+	font-family: helvetica;
+	color: black;
+}
+a {
+ 	text-decoration: none;
+ 	color: grey;
+ 	font-weight:lighter;
+}
+ p { text-align: center; 
+ 	line-height: 50px;
+ 	margin: 200px; 
+
+ }
+ img {
+ 	width:200px;
+ 	height:200px;
+ 	object-fit: cover; 
+ }
+ .cards {
+ 	display: flex; 
+ 	justify-content: space-around;
+
+
+ 	
+
+ }
+ .card {
+ 	outline-color: grey; 
+ 	outline-width: 20px; 
+ 	
+ 	border-radius: 5px;
+ 	width: 200px;
+ 	padding: 24px; 
+
+
+
+ }
+ .btn-blue {
+ 	padding:20px 30px;
+ 	margin: 30px;
+ 	background-color: blue; 
+ 	
+ }
+ #location {
+ 	padding: 40px; 
+ 	margin: 20px;
+ 	color: grey; 
+
+ }
+ #banner {
+ 	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background.jpg');
+ 	background-size: cover; 
+ 	background-position: center; 
+ 	height: 400px; 
+ }
+ .cardname {
+ 	color: black;
+ 	margin: 15px; 
+ } 
